@@ -1,4 +1,4 @@
-The output files are the 2 generated files that store the time and accuracy of all iterations of the performance tuning.
+The output files are the 4 generated files that store the time and accuracy of all iterations of the performance tuning. 2 each for single and multiple node implementations.
 
 The first row in each file corresponds to 2 Executors and 2GB.
 
