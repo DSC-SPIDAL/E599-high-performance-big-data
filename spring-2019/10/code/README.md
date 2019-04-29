@@ -64,7 +64,8 @@
                        
     EM yarn command to run the job
          
-    spark-submit --deploy-mode client --class com.lda.demo.project.SparkLdaEM                                                 /N/u/user_name/lda_project_final_demo/source_code/target/spark-lda-demo-0.0.1-SNAPSHOT-jar-with-dependencies.jar hdfs:///user/user_name/file_splits/review_1G.json /N/u/user_name/lda_project_final_demo/lda_output/statistics_csv                       file:///N/u/user_name/lda_project_final_demo/lda_output/run_1G                                                                /N/u/user_name/lda_project_final_demo/lda_output/hyper-params.json
+    spark-submit --deploy-mode client 
+    --class com.lda.demo.project.SparkLdaEM                                               /N/u/user_name/lda_project_final_demo/source_code/target/spark-lda-demo-0.0.1-SNAPSHOT-jar-with-dependencies.jar hdfs:///user/user_name/file_splits/review_1G.json /N/u/user_name/lda_project_final_demo/lda_output/statistics_csv                file:///N/u/user_name/lda_project_final_demo/lda_output/run_1G                                                                /N/u/user_name/lda_project_final_demo/lda_output/hyper-params.json
 		 
 		 
     Online yarn command to run the job
