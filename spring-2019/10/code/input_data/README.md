@@ -5,7 +5,7 @@ Data used is reviews data from Yelp.We split the files into 5 sizes for our expe
 
 
 
-           number of reviews            vocabulary size
+           File-size  number of reviews            vocabulary size
 
 1. 1G        1347778  					         171651    
 
