@@ -2,14 +2,14 @@ Put the instructions here to run your code. If dependencies are needed, give ins
 
 Installation steps:
 
-1.	Make directory structure like this in your node: (source_code,lda_output,lda_output_online)
-                [user_name@j-login1 lda_project_final_demo]$ ls -lrt
-                  drwxr-xr-x 4 user_name users 4096 Apr  3 11:17 source_code
-                   drwxr-xr-x 7 user_name users 4096 Apr  3 11:42 lda_output
-                   drwxr-xr-x 7 user_name users 4096 Apr  3 11:40 lda_output_online
+1.Make directory structure like this in your node: (source_code,lda_output,lda_output_online)
+     [user_name@j-login1 lda_project_final_demo]$ ls -lrt
+      drwxr-xr-x 4 user_name users 4096 Apr  3 11:17 source_code
+      drwxr-xr-x 7 user_name users 4096 Apr  3 11:42 lda_output
+      drwxr-xr-x 7 user_name users 4096 Apr  3 11:40 lda_output_online
 
 
-2.	Copy the src and pom.xml file into source_code, go to the location and run the command mvn package. Do not copy the target folder from source_folder. It contains an uber jar. This jar you must generate in your folder using mvn package. It will install all the libraries and combine them into an uber jar which will be uploaded in spark jvm when the job starts.
+2. Copy the src and pom.xml file into source_code, go to the location and run the command mvn package. Do not copy the target folder from source_folder. It contains an uber jar. This jar you must generate in your folder using mvn package. It will install all the libraries and combine them into an uber jar which will be uploaded in spark jvm when the job starts.
 
 3.	  Go to the lda_output directory and create the following directories for all file sizes.The output 
                  topic models will be written to these directories in the local file system.
@@ -31,7 +31,7 @@ In the lda_output folder for EM:
 			"alpha": "3.0",
 			"beta": "1.1",
 			"k": "20",
-			"iterations": "100"
+			"iterations": "100
 		      }
 		]
                        }
