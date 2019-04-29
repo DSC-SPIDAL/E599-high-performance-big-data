@@ -8,15 +8,25 @@ Output:
 1.	/N/u/user_name/lda_project_final_demo/lda_output/statistics_csv:  json file that contains
 
 •	executiontimeTraining: Execution time in seconds for training
+
 •	optimizer: EM or Online
+
 •	alpha
+
 •	beta
+
 •	k: Number of topics
+
 •	executiontimeTesting: Execution time in seconds for calculating test perplexity and train likelihood
+
 •	testperplexity: log perplexity of test dataset -- this is only for model evaluation; we have removed from the actual run because it takes lot of time.
+
 •	trainloglikelihood: loglikelihood of train dataset -- this is only for model evaluation; we have removed from the actual run because it takes lot of time.
+
 •	runid: ID to identify experiment
+
 •	vocablength: Number of words in the vocabulary
+
 •	iterations: Number of iterations
                          
    Sample output for EM for 1GB file:
