@@ -1,9 +1,4 @@
-put short description for the output data.
-
-
-
-
-Output:
+__Output:__
 
 1.	/N/u/user_name/lda_project_final_demo/lda_output/statistics_csv:  json file that contains
 
