@@ -1,5 +1,5 @@
 
-Group members: 
+### Group members: 
   
   Arpit Rajendra Shah
   
@@ -7,11 +7,13 @@ Group members:
   
   Shilpa Singh
 
-Project name:
+### Project name:
     Latent Dirichlet Allocation for Large Scale Data
 
-Summary: 
+### Summary: 
+
 The objective of this project is comparing the two LDA algorithms that are implemented in Spark (EM and Online), finding which one has the best computational performance and which one gives the best model. EM algorithm learns clustering using MAP Estimation, while Online uses iterative mini-batch sampling for Online Variational Inference. 
+
 We carried out experiments using the Yelp dataset, which contains up to 5GB of reviews from Yelp users.  We did the following text pre-processing methods: Text-Tokenization, removing Stop Words, POS tagging, we selected only the nouns to get a better model and we converted the text into vector of Token Counts. We divided the dataset in train and test, measuring the quality of the model with the perplexity of the test dataset, the lower the perplexity, the better the model.
 
 We found out that EM converges faster, however we got better results (in terms of test perplexity) with Online.  EM gives an overflow error after 100 iterations and doesn't consider asymmetric priors. In general, we could say Online is a better algorithm, but it is also the slowest which could be explained by the fact that it a more complicated than EM. 
