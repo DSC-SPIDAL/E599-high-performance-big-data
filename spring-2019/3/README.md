@@ -1,8 +1,13 @@
 Write your group members' name, your project name and put a summary of your project
 
+Title: Distributed Random Forest
+
+Group members:
+
 Srinithish Kandagadla
 Sumith Mishra
 
+Summary:
 We implemented a Decision tree from scratch aswe wanted greater
 control over the parameters and functions like getting the best
 splitting criteria over a variable. Of-the-shelf implementation like
