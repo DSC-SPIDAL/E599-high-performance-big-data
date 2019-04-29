@@ -1,6 +1,3 @@
-put short description for the input data. For example:  Number of samples, features 
-
-
 Data used is reviews data from Yelp.We split the files into 5 sizes for our experiments.The below table shows the number of reviews and the vocabulary size.
 
 
