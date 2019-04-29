@@ -1,7 +1,10 @@
 
 Group members: 
+  
   Arpit Rajendra Shah
+  
   Karen Sanchez Trejo
+  
   Shilpa Singh
 
 Project name:
