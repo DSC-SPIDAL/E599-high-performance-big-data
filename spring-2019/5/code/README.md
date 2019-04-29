@@ -1,1 +1,9 @@
-Put the instructions here to run your code. If dependencies are needed, give instructions on how to install them.
+Installation Links:
+
+Spark:
+
+https://intellipaat.com/tutorial/spark-tutorial/downloading-spark-and-getting-started/
+
+Dask:
+
+pip install dask
