@@ -27,7 +27,10 @@ Dask Steps:
 1.	We know that the scheduler is main central component of the Dask responsible for distributing the task and coordinating processes. We need to start the scheduler on a node by executing dask-scheduler command. 
 2.	We need to create worker processes and also allocate them the number of cores and the memory for each of them, so we execute Dask command such as dask- worker –nprocess n –nthreads p –memory-limit x GB. 
 For each of the above configurations, we vary the number of epochs as 10,100,1000,10000 and track the computation time and accuracy. 
+
+
 The following were the observations: 
+
 1.As the number of cores increases, the accuracy for a specific number of epochs increases suggesting that the computations are becoming more efficient. 
 
 2.There is a tradeoff to be considered here between the accuracy and the computation time in order to decide the most efficient config to be used. 
