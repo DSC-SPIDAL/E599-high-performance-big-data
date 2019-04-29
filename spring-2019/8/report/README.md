@@ -1,1 +1,1 @@
-Describe here who did what in the project or report.
+I am the sole member of my team
