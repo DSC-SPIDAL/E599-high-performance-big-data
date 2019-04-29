@@ -1,1 +1,2 @@
-Describe here who did what in the project or report.
+Rishab Nagaraj – Spark, Literature Survey
+Vivek Vikram Magadi – TensorFlow, Visualizations
