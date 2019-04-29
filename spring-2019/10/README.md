@@ -1,12 +1,11 @@
-Write your group members' name, your project name and put a summary of your project
 
 Group members: 
-Arpit Rajendra Shah
-Karen Sanchez Trejo
-Shilpa Singh
+  Arpit Rajendra Shah
+  Karen Sanchez Trejo
+  Shilpa Singh
 
 Project name:
-Latent Dirichlet Allocation for Large Scale Data
+    Latent Dirichlet Allocation for Large Scale Data
 
 Summary: 
 The objective of this project is comparing the two LDA algorithms that are implemented in Spark (EM and Online), finding which one has the best computational performance and which one gives the best model. EM algorithm learns clustering using MAP Estimation, while Online uses iterative mini-batch sampling for Online Variational Inference. 
