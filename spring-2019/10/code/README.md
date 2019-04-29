@@ -84,9 +84,7 @@ Parameter description:
 
     7. After every run, please rename the statistics_csv to statistics_csv_<file_size> to avoid  getting it overwritten by next run.
 
-
-
-     8. All the above was regarding the model tuning: For the spark tuning, we must make changes in the following file.The below  configuration is the most optimal one for EM.
+    8. All the above was regarding the model tuning: For the spark tuning, we must make changes in the following file.The below  configuration is the most optimal one for EM.
 
                          
 
