@@ -1,6 +1,7 @@
 Spark Configurations:
 
 Config 1: 4 cores, 9 executors, 11 GB memory 
+
 Epochs	Computation Time	Accuracy
 10	      33.6s	            91.64%
 100	      4min 25s	        96.92%
@@ -9,6 +10,7 @@ Epochs	Computation Time	Accuracy
 
 
 Config 2: 5 cores, 7 executors, 13 GB memory 
+
 Epochs	Computation Time	Accuracy
 10	      41.2s	            91.7%
 100	      4min 24s	        97.09%
@@ -16,6 +18,7 @@ Epochs	Computation Time	Accuracy
 10000	    17min 4s	        97.6%
 
 Config 3: 6 cores, 5 executors, 19 GB memory 
+
 Epochs	Computation Time	Accuracy
 10	      42s	              90.51%
 100	      5min 52s	        97%
@@ -26,6 +29,7 @@ Epochs	Computation Time	Accuracy
 DASK: 
 
 Config: 4 threads, 9 workers, 11GB memory 
+
 Epochs	Computation Time	Accuracy
 10	      9.45 s	           91.3%
 100	      1 min 32 s	       95.4%
@@ -34,6 +38,7 @@ Epochs	Computation Time	Accuracy
 
 
 Config 5: 5 threads, 7 workers, 13GB memory 
+
 Epochs	Computation Time	Accuracy
 10	      9.21s	            91.3%
 100	      1 min 29 s	      95.4%
@@ -42,6 +47,7 @@ Epochs	Computation Time	Accuracy
 
 
 Config: 6threads, 5workers, 19GB memory 
+
 Epochs	Computation Time	Accuracy
 10	      9.34s	            91.3%
 100	      1 min 8s	        95.4%
