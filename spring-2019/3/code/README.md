@@ -8,12 +8,14 @@ To run spark,
    Navigate to the folder where `AirlineReduced` file (data is placed)
    Place the script 'sparkSingleNodeParallel.py' in the same folder
    Uncomment the code line in the script
+   
    `spark-submit --deploy-mode client --num-executors ${numExecutor} --executor-cores ${coresPerWorker} --executor-memory ${memExecutor} ./sparkSingleNodeParallel.py`
    
 3. For running spark on multiple nodes
    Navigate to the folder where `AirlineReduced` file (data is placed)
    Place the script `sparkMultipleNodeParallel.py` in the same folder
    Uncomment the code line in the script
+   
    `spark-submit --deploy-mode client --num-executors ${numExecutor} --executor-cores ${coresPerWorker} --executor-memory ${memExecutor} ./sparkMultipleNodeParallel.py`
 
    
