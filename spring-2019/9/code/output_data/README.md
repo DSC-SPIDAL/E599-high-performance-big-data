@@ -2,3 +2,6 @@ We have created a shell script that will run the code of Apache Spark and give t
 
 After each successful run, run.txt will be created that will store the console logs of each run as well. 
 
+
+For tensorflow results_tf is the output file.
+
