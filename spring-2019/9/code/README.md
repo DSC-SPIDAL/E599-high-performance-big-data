@@ -3,12 +3,12 @@
 ## Steps to run RandomForest on Spark
 
 1. Create a two or three node hadoop cluster.
-2. Configure the cluster to create data nodes and secondary name nodes.
+2.Configure the cluster to create data nodes and secondary name nodes.
 3. Verify the two node configuration of Hadoop.
 4. Install apache spark.
 5. Install required libraries mentioned in the imports.
 6. Upload Script, Data and Apache Spark code.
-7. Run the code by running the script.
+7. Run the code by running the script, run.sh and make parametric tuning in the code accordingly as per the configuration of your machine.
 
 ## Steps to run RandomForest on Tensorflow
 
@@ -27,4 +27,4 @@ $ source ~/tensorflow/bin/activate
 $ Pip install –upgrade tensorflow
 $ Pip3 install –upgrade tensorflow
 
-Upload the tensorforest code and run.
+Upload the tensorforest code, set and tune the parameters in the code and run.
