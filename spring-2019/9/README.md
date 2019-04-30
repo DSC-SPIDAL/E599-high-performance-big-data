@@ -11,6 +11,6 @@ advanced Directed Acyclic Graph (DAG) or a data processing engine that is more s
 
 Group Members:
 
-Jainendra Kumar 
-Gattu Ramanadham
-Surya Prateek Soni
+Jainendra Kumar <br>
+Gattu Ramanadham <br>
+Surya Prateek Soni <br>
