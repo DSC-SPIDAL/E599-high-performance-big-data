@@ -1,4 +1,4 @@
-Dataset Description: 
+MNIST Dataset Description: 
 
 Available here: http://yann.lecun.com/exdb/mnist/index.html
 
