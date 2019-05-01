@@ -1,2 +1,1 @@
-The file IPBroadcaster_Input_2018-05-27_0.log contains the Sensor Data from the IndyCar Race. 
-We have worked on reading this data and then uploading it on the Queue and then reading the data from Queue and storing it in the MongoDB into different Collections based on the the parameters. The queries implemented for the project is based on this data 
+put short description for the input data. For example:  Number of samples, features 
