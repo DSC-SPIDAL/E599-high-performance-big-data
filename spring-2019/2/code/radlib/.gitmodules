@@ -1,0 +1,12 @@
+[submodule "sub/NAB"]
+	path = sub/NAB
+	url = https://github.com/numenta/NAB.git
+[submodule "sub/AnomalyDetection"]
+	path = sub/AnomalyDetection
+	url = https://github.com/twitter/AnomalyDetection.git
+[submodule "sub/IndyCar"]
+	path = sub/IndyCar
+	url = https://github.com/DSC-SPIDAL/IndyCar.git
+[submodule "sub/nupic"]
+	path = sub/nupic
+	url = https://github.com/numenta/nupic.git

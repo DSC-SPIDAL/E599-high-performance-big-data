@@ -1,0 +1,17 @@
+<annotations><filename>102nd_3395.jpg</filename><folder>images</folder><size><width>1280</width><height>720</height><depth>3</depth></size><object><name>car
+</name><pose>Unspecified
+</pose><truncated>0
+</truncated><difficult>0
+</difficult><bndbox><xmin>448.99967999999996
+</xmin><ymin>309.99996
+</ymin><xmax>533.99936
+</xmax><ymax>360.99972
+</ymax></bndbox></object><object><name>car
+</name><pose>Unspecified
+</pose><truncated>0
+</truncated><difficult>0
+</difficult><bndbox><xmin>386.00064
+</xmin><ymin>255.99996
+</ymin><xmax>415.00032
+</xmax><ymax>272.99987999999996
+</ymax></bndbox></object></annotations>

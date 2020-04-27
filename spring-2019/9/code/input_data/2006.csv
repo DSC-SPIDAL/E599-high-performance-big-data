@@ -1,0 +1,6 @@
+﻿Year,Month,DayofMonth,DayOfWeek,DepTime,CRSDepTime,ArrTime,CRSArrTime,UniqueCarrier,FlightNum,TailNum,ActualElapsedTime,CRSElapsedTime,AirTime,ArrDelay,DepDelay,Origin,Dest,Distance,TaxiIn,TaxiOut,Cancelled,CancellationCode,Diverted,CarrierDelay,WeatherDelay,0SDelay,SecurityDelay,LateAircraftDelay
+2006,1,11,3,743,745,1024,1018,US,343,N657AW,281,273,223,6,-2,ATL,PHX,1587,45,13,0,,0,0,0,0,0,0
+2006,1,11,3,1053,1053,1313,1318,US,613,N834AW,260,265,214,-5,0,ATL,PHX,1587,27,19,0,,0,0,0,0,0,0
+2006,1,11,3,1915,1915,2110,2133,US,617,N605AW,235,258,220,-23,0,ATL,PHX,1587,4,11,0,,0,0,0,0,0,0
+2006,1,11,3,1753,1755,1925,1933,US,300,N312AW,152,158,126,-8,-2,AUS,PHX,872,16,10,0,,0,0,0,0,0,0
+2006,1,11,3,824,832,1015,1015,US,765,N309AW,171,163,132,0,-8,AUS,PHX,872,27,12,0,,0,0,0,0,0,0

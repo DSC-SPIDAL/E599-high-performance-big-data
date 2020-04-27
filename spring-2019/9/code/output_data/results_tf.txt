@@ -1,0 +1,32 @@
+Below document contains attributes accuracy and time of execution.
+
+params = tf.contrib.tensor_forest.python.tensor_forest.ForestHParams(
+  num_classes=2, num_features=13, num_trees=25, max_nodes=1000, split_after_samples=50).fill()
+Accuracy = 0.6554914689816982
+1291.7643365859985
+
+params = tf.contrib.tensor_forest.python.tensor_forest.ForestHParams(
+  num_classes=2, num_features=13, num_trees=25, max_nodes=25, split_after_samples=50).fill()
+Accuracy = 0.6190143469803027
+713.363023519516
+
+params = tf.contrib.tensor_forest.python.tensor_forest.ForestHParams(
+  num_classes=2, num_features=13, num_trees=25, max_nodes=10, split_after_samples=50).fill()
+Accuracy = 0.6151208200053911
+691.892828464508
+
+params = tf.contrib.tensor_forest.python.tensor_forest.ForestHParams(
+  num_classes=2, num_features=13, num_trees=100, max_nodes=100, split_after_samples=50).fill()
+Accuracy = 0.5796508963091778
+623.4037320613861
+
+params = tf.contrib.tensor_forest.python.tensor_forest.ForestHParams(
+  num_classes=2, num_features=13, num_trees=50, max_nodes=100, split_after_samples=50).fill()
+"~/project/tf.p
+Accuracy = 0.632817342884363
+2929.7606942653656
+
+params = tf.contrib.tensor_forest.python.tensor_forest.ForestHParams(
+  num_classes=2, num_features=13, num_trees=25, max_nodes=100, split_after_samples=50).fill()
+Accuracy = 0.6331083112836378
+1498.3186044692993

@@ -1,0 +1,153 @@
+2019-12-15 04:48:39,177 [main] INFO  org.red5.server.Launcher - Red5 Server 1.0.9 (https://github.com/Red5)
+2019-12-15 04:48:39,194 [main] INFO  o.s.c.s.FileSystemXmlApplicationContext - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@26ba2a48: startup date [Sun Dec 15 04:48:39 UTC 2019]; root of context hierarchy
+2019-12-15 04:48:39,209 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [red5.xml]
+2019-12-15 04:48:39,269 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [jee-container.xml]
+2019-12-15 04:48:39,346 [main] INFO  o.r.spring.Red5ApplicationContext - setApplicationContext: org.springframework.context.support.FileSystemXmlApplicationContext@26ba2a48: startup date [Sun Dec 15 04:48:39 UTC 2019]; root of context hierarchy
+2019-12-15 04:48:39,346 [main] INFO  o.r.spring.Red5ApplicationContext - Red5ApplicationContext init
+2019-12-15 04:48:39,347 [main] INFO  o.r.spring.Red5ApplicationContext - Refreshing ApplicationContext 'red5.common': startup date [Sun Dec 15 04:48:39 UTC 2019]; parent: org.springframework.context.support.FileSystemXmlApplicationContext@26ba2a48
+2019-12-15 04:48:39,347 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [red5-common.xml]
+2019-12-15 04:48:39,401 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2019-12-15 04:48:39,409 [main] INFO  o.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-12-15 04:48:39,409 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.0 created.
+2019-12-15 04:48:39,409 [main] INFO  org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2019-12-15 04:48:39,410 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.0) 'Red5_Scheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 32 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-12-15 04:48:39,410 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'Red5_Scheduler' initialized from the specified file : '/N/u/mkpandey/Lab7/red5-server/conf/quartz.properties'
+2019-12-15 04:48:39,410 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.0
+2019-12-15 04:48:39,410 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler Red5_Scheduler_$_NON_CLUSTERED started.
+2019-12-15 04:48:39,565 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2019-12-15 04:48:39,567 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'schedulingService' has been autodetected for JMX exposure
+2019-12-15 04:48:39,567 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'clientBroadcastStream' has been autodetected for JMX exposure
+2019-12-15 04:48:39,635 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'schedulingService': registering with JMX server as MBean [org.red5.server:name=schedulingService,type=QuartzSchedulingService]
+2019-12-15 04:48:39,639 [main] INFO  o.r.spring.Red5ApplicationContext - setApplicationContext: org.springframework.context.support.FileSystemXmlApplicationContext@26ba2a48: startup date [Sun Dec 15 04:48:39 UTC 2019]; root of context hierarchy
+2019-12-15 04:48:39,640 [main] INFO  o.r.spring.Red5ApplicationContext - Red5ApplicationContext init
+2019-12-15 04:48:39,640 [main] INFO  o.r.spring.Red5ApplicationContext - Refreshing ApplicationContext 'red5.core': startup date [Sun Dec 15 04:48:39 UTC 2019]; parent: ApplicationContext 'red5.common'
+2019-12-15 04:48:39,640 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [red5-core.xml]
+2019-12-15 04:48:39,678 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - RTMP will be bound to [0.0.0.0:1935]
+2019-12-15 04:48:39,679 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - RTMP Mina Transport Settings
+Acceptor style: default I/O threads: 16
+TCP no-delay: true keep-alive: false
+2019-12-15 04:48:39,689 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - Traffic class modification is disabled
+2019-12-15 04:48:39,689 [main] INFO  o.r.s.net.rtmp.RTMPMinaTransport - Send buffer size: 65536 recv buffer size: 65536 so linger: -1 traffic class: 0
+2019-12-15 04:48:39,704 [main] INFO  org.red5.server.ContextLoader - ContextLoader init
+2019-12-15 04:48:39,705 [main] INFO  org.red5.server.ContextLoader - Loading: default.context = ${red5.root}/webapps/red5-default.xml => /N/u/mkpandey/Lab7/red5-server/webapps/red5-default.xml
+2019-12-15 04:48:39,705 [main] INFO  o.s.c.s.FileSystemXmlApplicationContext - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@f68f0dc: startup date [Sun Dec 15 04:48:39 UTC 2019]; parent: ApplicationContext 'red5.common'
+2019-12-15 04:48:39,705 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from URL [file:/N/u/mkpandey/Lab7/red5-server/webapps/red5-default.xml]
+2019-12-15 04:48:39,738 [main] INFO  org.red5.server.Context - Setting parent bean factory as core
+2019-12-15 04:48:39,741 [main] INFO  o.red5.server.plugin.PluginLauncher - Loaded plugin: org.red5.net.websocket.WebSocketPlugin
+2019-12-15 04:48:39,741 [main] INFO  org.red5.server.tomcat.WarDeployer - War deployer service created
+2019-12-15 04:48:39,743 [main] INFO  org.red5.server.tomcat.WarDeployer - Starting WarDeployer
+2019-12-15 04:48:39,743 [main] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars without app start
+2019-12-15 04:48:39,764 [main] INFO  o.r.n.websocket.WebSocketTransport - WebSocket (ws) will be bound to [0.0.0.0:8081]
+2019-12-15 04:48:39,765 [main] INFO  o.r.n.websocket.WebSocketTransport - started  websocket transport
+2019-12-15 04:48:39,797 [main] INFO  org.red5.server.tomcat.TomcatLoader - Loading Tomcat
+2019-12-15 04:48:39,797 [main] INFO  org.red5.server.tomcat.TomcatLoader - Server root: /N/u/mkpandey/Lab7/red5-server
+2019-12-15 04:48:39,797 [main] INFO  org.red5.server.tomcat.TomcatLoader - Config root: /N/u/mkpandey/Lab7/red5-server/conf
+2019-12-15 04:48:39,805 [main] INFO  org.red5.server.tomcat.TomcatLoader - Application root: /N/u/mkpandey/Lab7/red5-server/webapps
+2019-12-15 04:48:39,877 [main] INFO  org.red5.server.tomcat.TomcatLoader - Starting Tomcat servlet engine
+2019-12-15 04:48:39,927 [main] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/N/u/mkpandey/Lab7/red5-server/lib/native]
+2019-12-15 04:48:39,930 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-5080"]
+2019-12-15 04:48:39,935 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-12-15 04:48:39,940 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-12-15 04:48:39,941 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.15
+2019-12-15 04:48:39,981 [0.0.0.0-startStop-1] INFO  o.a.catalina.startup.ContextConfig - No global web.xml found
+2019-12-15 04:48:40,004 [0.0.0.0-startStop-1] INFO  o.a.c.c.C.[.[0.0.0.0].[/] - No Spring WebApplicationInitializer types detected on classpath
+2019-12-15 04:48:40,027 [0.0.0.0-startStop-1] INFO  o.a.c.c.C.[.[0.0.0.0].[/live] - No Spring WebApplicationInitializer types detected on classpath
+2019-12-15 04:48:40,045 [0.0.0.0-startStop-1] INFO  o.a.c.c.C.[.[0.0.0.0].[/chat] - No Spring WebApplicationInitializer types detected on classpath
+2019-12-15 04:48:40,061 [0.0.0.0-startStop-1] INFO  o.a.c.c.C.[.[0.0.0.0].[/vod] - No Spring WebApplicationInitializer types detected on classpath
+2019-12-15 04:48:40,068 [0.0.0.0-startStop-1] INFO  o.a.c.c.C.[.[0.0.0.0].[/installer] - No Spring WebApplicationInitializer types detected on classpath
+2019-12-15 04:48:40,083 [0.0.0.0-startStop-1] INFO  o.a.c.c.C.[.[0.0.0.0].[/oflaDemo] - No Spring WebApplicationInitializer types detected on classpath
+2019-12-15 04:48:40,090 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-0.0.0.0-5080"]
+2019-12-15 04:48:40,095 [main] INFO  org.red5.server.tomcat.TomcatLoader - Context initialized:  path: /home/mkpandey/Lab7/red5-server/webapps/root/
+2019-12-15 04:48:40,096 [main] INFO  org.red5.server.tomcat.TomcatLoader - Context initialized: /live path: /home/mkpandey/Lab7/red5-server/webapps/live/
+2019-12-15 04:48:40,096 [main] INFO  org.red5.server.tomcat.TomcatLoader - Context initialized: /chat path: /home/mkpandey/Lab7/red5-server/webapps/chat/
+2019-12-15 04:48:40,096 [main] INFO  org.red5.server.tomcat.TomcatLoader - Context initialized: /vod path: /home/mkpandey/Lab7/red5-server/webapps/vod/
+2019-12-15 04:48:40,096 [main] INFO  org.red5.server.tomcat.TomcatLoader - Context initialized: /installer path: /home/mkpandey/Lab7/red5-server/webapps/installer/
+2019-12-15 04:48:40,096 [main] INFO  org.red5.server.tomcat.TomcatLoader - Context initialized: /oflaDemo path: /home/mkpandey/Lab7/red5-server/webapps/oflaDemo/
+2019-12-15 04:48:40,096 [main] INFO  org.red5.server.tomcat.TomcatLoader - Dedicated RTMPT server configuration was not specified
+2019-12-15 04:48:40,097 [main] INFO  o.r.server.service.ShutdownServer - JEE server was found: TomcatLoader [serviceEngineName=red5Engine]
+2019-12-15 04:48:40,101 [Loader:] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Sun Dec 15 04:48:40 UTC 2019]; parent: org.springframework.context.support.FileSystemXmlApplicationContext@f68f0dc
+2019-12-15 04:48:40,103 [Loader:] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/red5-web.xml]
+2019-12-15 04:48:40,116 [Loader:] INFO  org.red5.server.Context - Setting parent bean factory as core
+2019-12-15 04:48:40,121 [Loader:] INFO  org.red5.server.scope.WebScope - Set server [Server@6521cbf1map[[empty]]]
+2019-12-15 04:48:40,124 [Loader:] INFO  org.red5.server.scope.Scope - Scope null name reset to:  disallowed
+2019-12-15 04:48:40,125 [Loader:] INFO  org.red5.server.Server - Add mapping global: default host:  context: null
+2019-12-15 04:48:40,125 [Loader:] INFO  org.red5.server.scope.Scope - Invalid scope name, null is not allowed
+2019-12-15 04:48:40,125 [Loader:] WARN  org.red5.server.scope.Scope - Invalid scope rejected: Scope [name=null, path=/default, type=APPLICATION, autoStart=true, creationTime=1576385320116, depth=1, enabled=true, running=false]
+2019-12-15 04:48:40,125 [Loader:] WARN  org.red5.server.scope.Scope - Scope not added to parent
+2019-12-15 04:48:40,126 [Loader:] INFO  org.red5.server.scope.WebScope - Webscope already registered; remove the 'init-method' from your 'web.scope' bean to prevent this message in the future.
+2019-12-15 04:48:40,127 [Loader:/live] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Sun Dec 15 04:48:40 UTC 2019]; parent: org.springframework.context.support.FileSystemXmlApplicationContext@f68f0dc
+2019-12-15 04:48:40,128 [Loader:/live] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/red5-web.xml]
+2019-12-15 04:48:40,136 [Loader:/live] INFO  org.red5.server.Context - Setting parent bean factory as core
+2019-12-15 04:48:40,136 [Loader:/live] INFO  org.red5.server.scope.WebScope - Set server [Server@6521cbf1map['/' -> 'default']]
+2019-12-15 04:48:40,138 [Loader:/live] INFO  org.red5.server.Server - Add mapping global: default host:  context: live
+2019-12-15 04:48:40,143 [Loader:/chat] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Sun Dec 15 04:48:40 UTC 2019]; parent: org.springframework.context.support.FileSystemXmlApplicationContext@f68f0dc
+2019-12-15 04:48:40,144 [Loader:/chat] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/red5-web.xml]
+2019-12-15 04:48:40,154 [Loader:/chat] INFO  org.red5.server.Context - Setting parent bean factory as core
+2019-12-15 04:48:40,155 [Loader:/chat] INFO  org.red5.server.scope.WebScope - Set server [Server@6521cbf1map['/live' -> 'default', '/' -> 'default']]
+2019-12-15 04:48:40,156 [Loader:/chat] INFO  org.red5.server.Server - Add mapping global: default host:  context: chat
+2019-12-15 04:48:40,157 [Loader:/chat] INFO  o.r.net.websocket.WebSocketPlugin - WebSocketPlugin application: org.red5.demos.chat.Application@257e083c
+2019-12-15 04:48:40,167 [Loader:/chat] INFO  o.red5.net.websocket.WebSocketScope - Application scope: Scope [name=chat, path=/default, type=APPLICATION, autoStart=true, creationTime=1576385320155, depth=1, enabled=true, running=false]
+2019-12-15 04:48:40,167 [Loader:/chat] INFO  o.red5.net.websocket.WebSocketScope - WebSocket app added: chat
+2019-12-15 04:48:40,167 [Loader:/chat] INFO  o.r.n.w.WebSocketScopeManager - addWebSocketScope: WebSocketScope [path=/chat, listeners=1, connections=0]
+2019-12-15 04:48:40,168 [Loader:/chat] INFO  o.red5.net.websocket.WebSocketScope - WebSocket scope added
+2019-12-15 04:48:40,170 [Loader:/vod] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Sun Dec 15 04:48:40 UTC 2019]; parent: org.springframework.context.support.FileSystemXmlApplicationContext@f68f0dc
+2019-12-15 04:48:40,170 [Loader:/vod] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/red5-web.xml]
+2019-12-15 04:48:40,178 [Loader:/vod] INFO  org.red5.server.Context - Setting parent bean factory as core
+2019-12-15 04:48:40,178 [Loader:/vod] INFO  org.red5.server.scope.WebScope - Set server [Server@6521cbf1map['/chat' -> 'default', '/live' -> 'default', '/' -> 'default']]
+2019-12-15 04:48:40,178 [Loader:/vod] INFO  org.red5.server.Server - Add mapping global: default host:  context: vod
+2019-12-15 04:48:40,180 [Loader:/installer] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Sun Dec 15 04:48:40 UTC 2019]; parent: org.springframework.context.support.FileSystemXmlApplicationContext@f68f0dc
+2019-12-15 04:48:40,180 [Loader:/installer] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/red5-web.xml]
+2019-12-15 04:48:40,188 [Loader:/installer] INFO  org.red5.server.Context - Setting parent bean factory as core
+2019-12-15 04:48:40,188 [Loader:/installer] INFO  org.red5.server.scope.WebScope - Set server [Server@6521cbf1map['/chat' -> 'default', '/live' -> 'default', '/vod' -> 'default', '/' -> 'default']]
+2019-12-15 04:48:40,188 [Loader:/installer] INFO  org.red5.server.Server - Add mapping global: default host: localhost context: installer
+2019-12-15 04:48:40,188 [Loader:/installer] INFO  org.red5.server.Server - Add mapping global: default host: localhost:5080 context: installer
+2019-12-15 04:48:40,190 [Loader:/installer] INFO  org.red5.server.service.Installer - Installer service created
+2019-12-15 04:48:40,192 [Loader:/oflaDemo] INFO  o.s.w.c.s.XmlWebApplicationContext - Refreshing Root WebApplicationContext: startup date [Sun Dec 15 04:48:40 UTC 2019]; parent: org.springframework.context.support.FileSystemXmlApplicationContext@f68f0dc
+2019-12-15 04:48:40,193 [Loader:/oflaDemo] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from ServletContext resource [/WEB-INF/red5-web.xml]
+2019-12-15 04:48:40,199 [Loader:/oflaDemo] INFO  org.red5.server.Context - Setting parent bean factory as core
+2019-12-15 04:48:40,199 [Loader:/oflaDemo] INFO  org.red5.server.scope.WebScope - Set server [Server@6521cbf1map['/chat' -> 'default', '/live' -> 'default', '/vod' -> 'default', '/' -> 'default', 'localhost:5080/installer' -> 'default', 'localhost/installer' -> 'default']]
+2019-12-15 04:48:40,200 [Loader:/oflaDemo] INFO  org.red5.server.Server - Add mapping global: default host:  context: oflaDemo
+2019-12-15 04:49:39,758 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2019-12-15 04:50:03,486 [NioProcessor-2] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:0
+2019-12-15 04:50:03,505 [NioProcessor-2] INFO  org.red5.server.scope.BasicScope - ClientBroadcastStream already exists: org.red5.server.stream.ClientBroadcastStream@13af2a1c new: org.red5.server.stream.ClientBroadcastStream@13af2a1c
+2019-12-15 04:50:03,507 [NioProcessor-2] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:publish c-ip:127.0.0.1 x-sname:b1fe91c6-c821-44a5-93a6-ae6e26b2006c x-name:indycar
+2019-12-15 04:50:08,229 [NioProcessor-3] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:1
+2019-12-15 04:50:08,313 [NioProcessor-3] WARN  org.red5.server.net.rtmp.Channel - Non-existant stream for channel id: 8, session: VAKGVGUCE7YII discarding: Invoke #3: Service: null Method: getStreamLength Num Params: 1 0: indycar
+2019-12-15 04:50:08,335 [Red5_Scheduler_Worker-22] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:10be4ed0-0c1e-4680-9a8d-f2391902a9b3
+2019-12-15 04:50:08,338 [Red5_Scheduler_Worker-23] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:10be4ed0-0c1e-4680-9a8d-f2391902a9b3 x-name:indycar
+2019-12-15 04:50:48,800 [NioProcessor-2] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:unpublish c-ip:127.0.0.1 cs-bytes:8632497 sc-bytes:3691 x-sname:b1fe91c6-c821-44a5-93a6-ae6e26b2006c x-file-length:45 x-name:indycar
+2019-12-15 04:50:48,800 [NioProcessor-2] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:127.0.0.1 c-client-id:0
+2019-12-15 04:50:51,111 [NioProcessor-4] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:2
+2019-12-15 04:50:51,114 [NioProcessor-4] INFO  org.red5.server.scope.BasicScope - ClientBroadcastStream already exists: org.red5.server.stream.ClientBroadcastStream@13af2a1c new: org.red5.server.stream.ClientBroadcastStream@122d9d03
+2019-12-15 04:50:51,115 [NioProcessor-4] INFO  org.red5.server.scope.BasicScope - ClientBroadcastStream already exists: org.red5.server.stream.ClientBroadcastStream@122d9d03 new: org.red5.server.stream.ClientBroadcastStream@122d9d03
+2019-12-15 04:50:51,115 [NioProcessor-4] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:publish c-ip:127.0.0.1 x-sname:3625a3eb-dc4f-4c05-b11d-57447f39fe60 x-name:indycar
+2019-12-15 04:50:52,591 [NioProcessor-3] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:127.0.0.1 c-client-id:1
+2019-12-15 04:50:52,601 [Red5_Scheduler_Worker-19] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:stop c-ip:127.0.0.1 cs-bytes:3620 sc-bytes:8574875 x-sname:10be4ed0-0c1e-4680-9a8d-f2391902a9b3
+2019-12-15 04:50:53,242 [NioProcessor-5] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:3
+2019-12-15 04:50:53,324 [NioProcessor-5] WARN  org.red5.server.net.rtmp.Channel - Non-existant stream for channel id: 8, session: SCXKOG9LTONJF discarding: Invoke #3: Service: null Method: getStreamLength Num Params: 1 0: indycar
+2019-12-15 04:50:53,337 [Red5_Scheduler_Worker-22] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:acb8ee32-e520-4ec7-acca-dfc6ca4c31f3
+2019-12-15 04:50:53,337 [Red5_Scheduler_Worker-23] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:acb8ee32-e520-4ec7-acca-dfc6ca4c31f3 x-name:indycar
+2019-12-15 04:57:38,577 [NioProcessor-4] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:unpublish c-ip:127.0.0.1 cs-bytes:81546904 sc-bytes:4036 x-sname:3625a3eb-dc4f-4c05-b11d-57447f39fe60 x-file-length:407 x-name:indycar
+2019-12-15 04:57:38,579 [NioProcessor-4] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:127.0.0.1 c-client-id:2
+2019-12-15 04:57:41,405 [NioProcessor-6] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:4
+2019-12-15 04:57:41,412 [NioProcessor-6] INFO  org.red5.server.scope.BasicScope - ClientBroadcastStream already exists: org.red5.server.stream.ClientBroadcastStream@122d9d03 new: org.red5.server.stream.ClientBroadcastStream@7be9212e
+2019-12-15 04:57:41,413 [NioProcessor-6] INFO  org.red5.server.scope.BasicScope - ClientBroadcastStream already exists: org.red5.server.stream.ClientBroadcastStream@7be9212e new: org.red5.server.stream.ClientBroadcastStream@7be9212e
+2019-12-15 04:57:41,413 [NioProcessor-6] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:publish c-ip:127.0.0.1 x-sname:fa157749-0e7d-4247-91e4-bc62e1509f47 x-name:indycar
+2019-12-15 04:57:41,793 [NioProcessor-5] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:127.0.0.1 c-client-id:3
+2019-12-15 04:57:41,803 [Red5_Scheduler_Worker-7] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:stop c-ip:127.0.0.1 cs-bytes:5270 sc-bytes:80996244 x-sname:acb8ee32-e520-4ec7-acca-dfc6ca4c31f3
+2019-12-15 04:57:44,809 [NioProcessor-7] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:connect c-ip:127.0.0.1 c-client-id:5
+2019-12-15 04:57:44,890 [NioProcessor-7] WARN  org.red5.server.net.rtmp.Channel - Non-existant stream for channel id: 8, session: 3QK2ASTAEEAXM discarding: Invoke #3: Service: null Method: getStreamLength Num Params: 1 0: indycar
+2019-12-15 04:57:44,903 [Red5_Scheduler_Worker-10] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:f9f29494-3d6e-4cbc-8dac-f74c7033b199
+2019-12-15 04:57:44,903 [Red5_Scheduler_Worker-11] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:play c-ip:127.0.0.1 x-sname:f9f29494-3d6e-4cbc-8dac-f74c7033b199 x-name:indycar
+2019-12-15 04:59:39,743 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2019-12-15 05:09:39,743 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2019-12-15 05:19:39,743 [pool-4-thread-1] INFO  org.red5.server.tomcat.WarDeployer - Deploy wars with app start
+2019-12-15 05:21:18,550 [NioProcessor-7] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:session x-event:disconnect c-ip:127.0.0.1 c-client-id:5
+2019-12-15 05:21:18,559 [Red5_Scheduler_Worker-13] INFO  o.r.s.adapter.ApplicationAdapter - W3C x-category:stream x-event:stop c-ip:127.0.0.1 cs-bytes:9803 sc-bytes:291203790 x-sname:f9f29494-3d6e-4cbc-8dac-f74c7033b199

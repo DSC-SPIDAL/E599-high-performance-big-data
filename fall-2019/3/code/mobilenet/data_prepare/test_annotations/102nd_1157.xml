@@ -1,0 +1,9 @@
+<annotations><filename>102nd_1157.jpg</filename><folder>images</folder><size><width>1280</width><height>720</height><depth>3</depth></size><object><name>car
+</name><pose>Unspecified
+</pose><truncated>0
+</truncated><difficult>0
+</difficult><bndbox><xmin>293.00032
+</xmin><ymin>141.99983999999995
+</ymin><xmax>1046.0
+</xmax><ymax>533.99952
+</ymax></bndbox></object></annotations>

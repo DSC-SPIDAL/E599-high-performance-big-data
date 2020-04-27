@@ -1,0 +1,17 @@
+<annotations><filename>102nd_165.jpg</filename><folder>images</folder><size><width>1280</width><height>720</height><depth>3</depth></size><object><name>car
+</name><pose>Unspecified
+</pose><truncated>0
+</truncated><difficult>0
+</difficult><bndbox><xmin>282.00064000000003
+</xmin><ymin>292.00032
+</ymin><xmax>567.0003200000001
+</xmax><ymax>407.00015999999994
+</ymax></bndbox></object><object><name>car
+</name><pose>Unspecified
+</pose><truncated>0
+</truncated><difficult>0
+</difficult><bndbox><xmin>656.99968
+</xmin><ymin>361.00008
+</ymin><xmax>717.9993599999999
+</xmax><ymax>392.99976000000004
+</ymax></bndbox></object></annotations>

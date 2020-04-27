@@ -1,0 +1,9 @@
+<annotations><filename>ff207.jpg</filename><folder>images</folder><size><width>1280</width><height>720</height><depth>3</depth></size><object><name>car
+</name><pose>Unspecified
+</pose><truncated>0
+</truncated><difficult>0
+</difficult><bndbox><xmin>12.999680000000012
+</xmin><ymin>308.9998799999999
+</ymin><xmax>1249.9993599999998
+</xmax><ymax>719.99964
+</ymax></bndbox></object></annotations>

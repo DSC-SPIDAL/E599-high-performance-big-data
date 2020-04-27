@@ -1,0 +1,17 @@
+<annotations><filename>ff71.jpg</filename><folder>images</folder><size><width>1280</width><height>720</height><depth>3</depth></size><object><name>car
+</name><pose>Unspecified
+</pose><truncated>0
+</truncated><difficult>0
+</difficult><bndbox><xmin>822.9996799999999
+</xmin><ymin>365.00039999999996
+</ymin><xmax>902.0
+</xmax><ymax>388.00007999999997
+</ymax></bndbox></object><object><name>car
+</name><pose>Unspecified
+</pose><truncated>0
+</truncated><difficult>0
+</difficult><bndbox><xmin>796.99968
+</xmin><ymin>356.0004
+</ymin><xmax>857.9993599999999
+</xmax><ymax>372.00023999999996
+</ymax></bndbox></object></annotations>

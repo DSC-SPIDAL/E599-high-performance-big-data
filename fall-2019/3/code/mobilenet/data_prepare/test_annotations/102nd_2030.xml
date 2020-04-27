@@ -1,0 +1,17 @@
+<annotations><filename>102nd_2030.jpg</filename><folder>images</folder><size><width>1280</width><height>720</height><depth>3</depth></size><object><name>car
+</name><pose>Unspecified
+</pose><truncated>0
+</truncated><difficult>0
+</difficult><bndbox><xmin>858.99904
+</xmin><ymin>292.00032000000004
+</ymin><xmax>912.99968
+</xmax><ymax>326.00016
+</ymax></bndbox></object><object><name>car
+</name><pose>Unspecified
+</pose><truncated>0
+</truncated><difficult>0
+</difficult><bndbox><xmin>858.9996799999999
+</xmin><ymin>80.99964
+</ymin><xmax>882.0
+</xmax><ymax>101.99987999999999
+</ymax></bndbox></object></annotations>
