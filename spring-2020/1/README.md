@@ -2,9 +2,9 @@ Consider this page as a blog post.
 
 Write your group members' name, your project name and put a summary of your project
 
-Project Name: IndyCar PitStop Prediction
+Project Name:/n IndyCar PitStop Prediction
 
-Group Members:
+Group Members:\n
 Selahattin Akkas, Ayush Srivastava & Siddhartha Rao
 
 Project Summary:
