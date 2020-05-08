@@ -17,5 +17,5 @@ We have created some of our own features like:
 - Fuel: Fuel consumed after the last  pitstop. 
         We have assumed that the vehicle consumes 1 unit of fuel during green flag and 0.3 units of fuel during yellow flag
 
-Our number of samples are:<br/>
+Number of samples:<br/>
 For each year the number of samples are 200*33 (200 laps & 33 cars) for 7 years, i.e. 2013-2019
