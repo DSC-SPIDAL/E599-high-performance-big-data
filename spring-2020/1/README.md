@@ -27,13 +27,18 @@ For our project we have used a LSTM model with 4 LSTM cells and 1 dense layer. W
 ![epoch vs error](https://github.com/aysriv/E599-high-performance-big-data/blob/master/spring-2020/1/code/output_data/epoch%20vs%20error.png)
 
 We have tested this model on data from 2018 & 2019 and then compared with the available ground truths.<br/><br/>
+
 Below are the graphs obtained for both the years:<br/>
+Yellow flag which took place during the race are depicted by yellow bars on the plot<br/>
 In the images, red line depict the ground truth, i.e. the actual number of laps till the next pitstop.<br/>
 Blue line is our prediction
 ![2018](https://github.com/aysriv/E599-high-performance-big-data/blob/master/spring-2020/1/code/output_data/2018_final.png)
 ![2019](https://github.com/aysriv/E599-high-performance-big-data/blob/master/spring-2020/1/code/output_data/2019_final.png)
+As you can see our model’s prediction had a high accuracy for 2019 data.
 
-
+Conclusion:<br/>
+- If the yellow flag is at least 20 laps after their previous pitstop ,then the cars will go to the pit lane
+- This model does help us in predicting when the cars will go to the pit lane, and we think that if there was more data available the model would have performed better
 
 
 
