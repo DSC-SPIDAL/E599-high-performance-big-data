@@ -1,2 +1,3 @@
 put short description for the output data.
 
+For both the years' plot, 2018 and 2019, the red line depicts the ground truth and the blue line shows our prediction. We have shown only the winner of the respective races.<br/> For 2018, the winnner is car number 12 and for 2019, the winner is car number 22. The low points on the graph shows when the car went for the pitstop
