@@ -1,7 +1,3 @@
-put short description for the input data. For example:  Number of samples, features 
-
-Do not include any confidential data.
-
 Our Input data consists of log files of all 200 cars who took part in Indy500 from the years 2013 to 2019.
 
 Training Data:<br/>
