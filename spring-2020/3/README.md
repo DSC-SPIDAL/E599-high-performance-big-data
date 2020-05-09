@@ -2,11 +2,11 @@
 
 In this project, the state-of-the-art deep learning method-Long short-term memory (LSTM) architecture is used as DL framework to build a model, and then train the log datasets with multi-features (variables) to obtain a speed-predict model, and lastly compare the predict speed with ground truth to determine if something anomaly would happen.
 
-#### Group member: Yafei Wang
+### Group member: Yafei Wang
 
-#### Datasets pre-processing
+### Datasets pre-processing
 
-The raw datasets `IPBroadcaster_Input_201805-27_0.log` is cleaned, extracted two features (`speed` and `lap_distance`), and then normalized. Here, a `create_dataset` function is defined to creat `data_x` and `data_y` as following: 
+The raw datasets `IPBroadcaster_Input_201805-27_0.log` is cleaned, extracted two features (`speed` and `lap_distance`), and then normalized. Here, a `create_dataset` function is defined to create `data_x` and `data_y` as following: 
 
 ```python
 def create_dataset(used_dataset, look_back):   
@@ -21,9 +21,9 @@ def create_dataset(used_dataset, look_back):
 In the project, the first `10%` of datasets is used as training and following another `5%` as test.
 
 
-#### Model Architecture
+### Model Architecture
 
-In this project, `Keras (https://keras.io/)` is used to build a LSTM network. The core architecture is listed as following:
+In this project, `Keras` (https://keras.io/) is used to build a LSTM network. The core architecture is listed as following:
 
 ```python
 model = Sequential()
@@ -33,7 +33,7 @@ model.add(Dense(1))
 model.compile(loss='mae', optimizer='adam') 
 ```
 
-#### Experiments
+### Experiments
 
 In this section, the train and predict results are compared and discussed with three different `timestep` or `look_back` (10, 50, 100).
 Here, some example results such as loss, predict speed vs ground truth and anonmaly detection are shown as following:
@@ -45,7 +45,7 @@ Here, some example results such as loss, predict speed vs ground truth and anonm
 ![anonmaly detection (timestep=100](https://github.com/yafeiwang89/E599-high-performance-big-data/blob/master/spring-2020/3/code/output_data/timestep%3D100/Anomaly%20detection%20for%20car%203%20(threshold%3D0.08).png)
 
 
-#### Discussion
+### Discussion
 In this project, LSTM network is used as DL framework to build a model to train and predict with real-time, multi-features IndyCar datasets. Here, we conclude as we have found and propose some open questions or discussion.
 * From the results, the predict speed is very close to the ground truth
 * By increasing timestep, the problem that prediction exceed 1.0 is alleviated
