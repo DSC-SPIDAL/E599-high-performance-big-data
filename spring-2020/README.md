@@ -3,6 +3,6 @@ Students developed the the projects below in Spring 2019. Folders are organized 
 
 | Group # | Group Members                      | Project                      |
 | ------- | ---------------------------------- | ---------------------------- |
-| 1       | Siddartha Rao, Ayush Srivastava    | Indy Car Pit Stop Prediction |
-| 2       | Yashaswini Dhatrika, Utkarsh Kumar | Indy Car Pit Rank Prediction |
-| 3       | Yafei Wang                         | Indy Car Anomaly Detection   |
+| 1       | Siddartha Rao, Ayush Srivastava    | IndyCar Pitstop Prediction |
+| 2       | Yashaswini Dhatrika, Utkarsh Kumar | Ranking Prediction for Indianapolis500 Race |
+| 3       | Yafei Wang                         | Real-Time Anomaly Detection for IndyCar Datasets with LSTM   |
