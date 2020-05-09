@@ -1,1 +1,1 @@
-Describe here who did what in the project or report.
+I finished this project alone
