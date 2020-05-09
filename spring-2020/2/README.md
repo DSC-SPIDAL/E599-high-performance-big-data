@@ -9,11 +9,11 @@ While being one of the most challenging problems, forecasting and predicting ran
 
 METHODOLOGY:  
 The steps followed for the lead rank prediction are data extraction, data pre-processing, exploratory data analysis and application of
-various models like Linear Models(ARIMA), Random Forest, Gradient Boosting Regression, Deep Learning Models(LSTM, Encoder-Decoder with attention).And in the final step the models are compared based on various factors like accuracy, stability, time complexity etc.. The following sections discuss each of these in detail. 
+various models like Linear Models(ARIMA), Random Forest, Gradient Boosting Regression, Deep Learning Models(LSTM, Encoder-Decoder with attention). And in the final step the models are compared based on various factors like accuracy, stability, time complexity etc.
 
 CONCLUSION:  
-(1) From EDA, the starting position, last pit stop displayed correlation with rank
-(2) By deploying various models, we found the Seq2Seq Attention Model has performed well while compared to other models.
-(3) But when you consider the stability or variation of accuracy then the Random Forest and Gradient Boosting models are stable over other Deep Learning Models.
+(1) From EDA, the starting position, last pit stop displayed correlation with rank  
+(2) By deploying various models, we found the Seq2Seq Attention Model has performed well while compared to other models.  
+(3) But when you consider the stability or variation of accuracy then the Random Forest and Gradient Boosting models are stable over other Deep Learning Models.  
   
 ![alt text](https://github.com/utkarsh3142/E599-high-performance-big-data/blob/master/spring-2020/2/code/output_data/comparison.PNG)
