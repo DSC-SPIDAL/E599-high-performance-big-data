@@ -1,6 +1,6 @@
 Team Members: Sai Sugeeth Kamineni and Uma Maheswari Gollapudi
 
-Project Name: Real Time Rank Prediction using Time Series on IndyCar data
+Project Name: Real Time Rank Prediction using Time Series on IndyCar data
 
 Goals:
 * Clean data and perform EDA.
