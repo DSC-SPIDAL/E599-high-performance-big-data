@@ -2,7 +2,7 @@
 
 **Created by:** Sidharth Vishnu Bhakth, Vijayalaxmi B Maigur
 
-## Summary:
+### Summary:
 
 Deep Neural Networks and end-to-end models have significantly changed the landscape of speech recognition and language modeling. They have eliminated the need of hand-engineering features and allow the model to learn feature representations from clean/noisy speech signals. With large enough datasets, these networks can achieve state-of-the-art performance in speech recognition tasks and have offered significant improvement over the traditional approach of hand-engineering of features which are commonly used in automatic speech recognition (ASR) systems. They are commonly used in hybrid DNN-HMM speech recognition systems for acoustic modeling, pronunciation models that map words to phonemes and language models that map speech to text. One of the biggest challenges in speech recognition is that it contains a wide range of variability in speech and acoustics. Thus, a good speech recognition model should be able to generalize and perform robustly even with varied acoustics. In traditional automatic speech recognition (ASR) systems, numerous complex components like feature extraction, pronunciation models, speaker adaption, acoustic models etc. are modelled separately. Building and tuning these individual models are very hard especially for a new language.
 
@@ -12,7 +12,7 @@ This work is inspired by the recent advances made in end-to-end models. We aim t
 
 ![architecture](https://github.com/SidharthBhakth/E599-high-performance-big-data/blob/master/fall-2020/4/images/Model.png)
 
-## Results:
+### Results:
 
 The improved model achieves an average word error rate of 0.26 on a test minibatch of 10 audio signals after training for 20 epochs, a 42% improvement on the baseline model performance.
 
