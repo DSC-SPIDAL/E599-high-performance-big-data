@@ -1,0 +1,60 @@
+# topology definition
+
+# name to be used when submitting. This is what shows up...
+# in the Storm UI/storm command-line tool as the topology name
+# when submitted to Storm
+name: "indycar-12"
+
+# Topology configuration
+config:
+  # Hint for the number of workers to create
+  topology.workers: 1
+
+# Spout definitions
+spouts:
+  - id: "indycar-spout"
+    className: "org.apache.storm.flux.wrappers.spouts.FluxShellSpout"
+    constructorArgs:
+      # Command line
+      - ["python", "indycarspout.py", "12"]
+      # Output field(s)
+      - ["car_number", "lap", "row_data"]
+    # parallelism hint
+    parallelism: 1
+
+# Bolt definitions
+bolts:
+  - id: "inference-bolt"
+    className: "org.apache.storm.flux.wrappers.bolts.FluxShellBolt"
+    constructorArgs:
+      # Command line
+      - ["python", "inferencebolt.py"]
+      # Output field(s)
+      - ["car_number", "lap", "actual_rank", "prediction"]
+    parallelism: 1
+
+  - id: "sendwebserver-bolt"
+    className: "org.apache.storm.flux.wrappers.bolts.FluxShellBolt"
+    constructorArgs:
+      # Command line
+      - ["python", "sendwebserverbolt.py"]
+      # Output field(s)
+      - ["car_number", "lap", "actual_rank", "prediction"]
+    parallelism: 1
+
+# Stream definitions
+streams:
+  - name: "Spout --> Inference" # name isn't used (placeholder for logging, UI, etc.)
+    # The stream emitter
+    from: "indycar-spout"
+    # The stream consumer
+    to: "inference-bolt"
+    # Grouping type
+    grouping:
+      type: SHUFFLE
+
+  - name: "Inference -> WebServer"
+    from: "inference-bolt"
+    to: "sendwebserver-bolt"
+    grouping:
+      type: SHUFFLE

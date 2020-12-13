@@ -1,3 +1,8 @@
-Consider this page as a blog post.
+Team Members: Sai Sugeeth Kamineni and Uma Maheswari Gollapudi
 
-Write your group members' name, your project name and put a summary of your project. You can include images that show your result.
+Project Name: Real Time Rank Prediction using Time Series on IndyCar data
+
+Goals:
+* Clean data and perform EDA.
+* Develop and compare ML and DL models.
+* Use the best DL model to deploy real time prediction on Apache Storm.
