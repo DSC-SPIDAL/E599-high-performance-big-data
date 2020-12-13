@@ -21,6 +21,7 @@ The improved model achieves an average word error rate of 0.26 on a test minibat
 | Deep Speech 2          | 0.17        | 0.45        |
 | Improved Deep Speech 2 | 0.1         | 0.26        |
 
+
 The results are shown below:
 
 ![Avg. Character Error Rate](https://github.com/SidharthBhakth/E599-high-performance-big-data/blob/master/fall-2020/4/images/cer.png)
