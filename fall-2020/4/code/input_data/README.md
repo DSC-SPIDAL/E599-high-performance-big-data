@@ -2,4 +2,6 @@ The dataset we are using is the LibriSpeech corpus which is derived from audiobo
 
 ![data](https://github.com/SidharthBhakth/E599-high-performance-big-data/blob/master/fall-2020/4/images/data.png)
 
+Each sample of the dataset contains the waveform, sample rate of audio, the utterance/label, and more metadata on the sample. 
+
 [1] LibriSpeech ASR Corpus: http://www.openslr.org/12
