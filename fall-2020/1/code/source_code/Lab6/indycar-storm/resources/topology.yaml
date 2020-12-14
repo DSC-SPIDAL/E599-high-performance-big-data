@@ -1,0 +1,60 @@
+# topology definition
+
+# name to be used when submitting. This is what shows up...
+# in the Storm UI/storm command-line tool as the topology name
+# when submitted to Storm
+name: "indycar"
+
+# Topology configuration
+config:
+  # Hint for the number of workers to create
+  topology.workers: 1
+
+# Spout definitions
+spouts:
+  - id: "indycar-spout"
+    className: "org.apache.storm.flux.wrappers.spouts.FluxShellSpout"
+    constructorArgs:
+      # Command line
+      - ["python", "indycarspout.py"]
+      # Output field(s)
+      - ["word", "race_time", "car_12", "car_20", "car_9", "car_27", "car_28", "car_22", "car_29", "car_1", "car_6", "car_15"]
+    # parallelism hint
+    parallelism: 1
+
+# Bolt definitions
+bolts:
+  - id: "inference-bolt"
+    className: "org.apache.storm.flux.wrappers.bolts.FluxShellBolt"
+    constructorArgs:
+      # Command line
+      - ["python", "inferencebolt.py"]
+      # Output field(s)
+      - ["word", "race_time", "car_12", "car_20", "car_9", "car_27", "car_28", "car_22", "car_29", "car_1", "car_6", "car_15", "car_12_anomaly", "car_20_anomaly", "car_9_anomaly", "car_27_anomaly", "car_28_anomaly", "car_22_anomaly", "car_29_anomaly", "car_1_anomaly", "car_6_anomaly", "car_15_anomaly"]
+    parallelism: 1
+
+  - id: "sendwebserver-bolt"
+    className: "org.apache.storm.flux.wrappers.bolts.FluxShellBolt"
+    constructorArgs:
+      # Command line
+      - ["python", "sendwebserverbolt.py"]
+      # Output field(s)
+      - ["race_time","message"]
+    parallelism: 1
+
+# Stream definitions
+streams:
+  - name: "Spout --> Inference" # name isn't used (placeholder for logging, UI, etc.)
+    # The stream emitter
+    from: "indycar-spout"
+    # The stream consumer
+    to: "inference-bolt"
+    # Grouping type
+    grouping:
+      type: SHUFFLE
+
+  - name: "Inference -> WebServer"
+    from: "inference-bolt"
+    to: "sendwebserver-bolt"
+    grouping:
+      type: SHUFFLE
