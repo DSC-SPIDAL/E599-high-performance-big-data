@@ -1,4 +1,4 @@
-Describe here who did what in the project or report.
+The work on the project was divided between the teammates.
 
 Sidharth:
 
