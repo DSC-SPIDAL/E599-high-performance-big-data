@@ -49,7 +49,7 @@ Highly automated technology, self-driving cars, promise a range of potential ben
 Loss curves for the three models were recorded for 10000 steps for above mentioned batch configurations.
 
 | **No**. | **Model** | **Split** | **Loss** |
-| --- | --- | --- | --- |
+| 1. | ResNet18 | 10.172 | 12.817 |
 |
 1. |
 ResNet 18
