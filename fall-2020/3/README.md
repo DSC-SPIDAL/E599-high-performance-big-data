@@ -1,3 +1,6 @@
+**Authors:** Madhura Bartakke, Neha Tayade
+
+
 **Motion Prediction for Autonomous Vehicles**
 
 Highly automated technology, self-driving cars, promise a range of potential benefits like greater road safely, enhanced independence for seniors and disables, ability to recapture driving time, fewer roadway crashes and reduced traffic congestion. With huge amount of data and leveraging deep learning paradigms, it is possible to tackle these problems and promote human like control and safety.
