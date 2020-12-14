@@ -33,3 +33,5 @@ rasterization
 6. Test.zarr - test set, in .zarr format
 The analysis of train, test and validate data over time is given in the
 diagram below:
+
+![alt text](https://github.com/madhura42/E599-high-performance-big-data/blob/master/fall-2020/3/code/input_data/Input_data_split.PNG)
