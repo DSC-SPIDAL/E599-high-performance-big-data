@@ -1,7 +1,7 @@
 The source code is in the form on .py files with the main.py file calling functions from the other files. For running our code, the folllwing packages are required:
 
 | Library    | Install command                                                                                                                     |
-| :----------|:-----------------------------------------------------------------------------------------------------------------------------------:|
+| :----------|:------------------------------------------------------------------------------------------------------------------------------------|
 | numpy      | !pip install numpy                                                                                                                  |
 | pandas     | !pip install pandas                                                                                                                 |
 | matplotlib | !pip install matplotlib                                                                                                             |
