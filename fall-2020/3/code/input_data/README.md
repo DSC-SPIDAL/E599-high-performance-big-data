@@ -12,19 +12,24 @@ labelled elements and a high-definition aerial view over the area.
 The data is packed in .zarr files and are loaded using the zarr Python
 module and are also loaded natively by l5kit. .zarr file contains a
 set of:
- Scenes: Driving episodes acquired from a given vehicle for
+
+1. Scenes: Driving episodes acquired from a given vehicle for
 capturing aerial and semantic views.
- Frames: Snapshots in time of the pose of the vehicle in the form
+
+2. Frames: Snapshots in time of the pose of the vehicle in the form
 of time frames.
- Agents: Four agent label probabilities captured by the vehicle's
+
+3. Agents: Four agent label probabilities captured by the vehicle's
 sensors.
+
+
 Files in the dataset:
- Aerial_map - an aerial map used when rasterization is performed
- Semantic_map - a high definition semantic map used for
+1. Aerial_map - an aerial map used when rasterization is performed
+2. Semantic_map - a high definition semantic map used for
 rasterization
- Sample.zarr - a small sample set, designed for exploration
- Train.zarr - the training set, in .zarr format
- Validate.zarr - a validation set
- Test.zarr - test set, in .zarr format
+3. Sample.zarr - a small sample set, designed for exploration
+4. Train.zarr - the training set, in .zarr format
+5. Validate.zarr - a validation set
+6. Test.zarr - test set, in .zarr format
 The analysis of train, test and validate data over time is given in the
 diagram below:
