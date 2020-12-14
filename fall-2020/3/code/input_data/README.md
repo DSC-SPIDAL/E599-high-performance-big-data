@@ -35,3 +35,11 @@ The analysis of train, test and validate data over time is given in the
 diagram below:
 
 ![alt text](https://github.com/madhura42/E599-high-performance-big-data/blob/master/fall-2020/3/code/input_data/Input_data_split.PNG)
+
+
+** For downloading the data, follow instructions:**
+1. Go to URL: https://self-driving.lyft.com/level5/data/
+2. Click on 'prediction dataset' tab
+3. CLick on 'Download'
+4. Register by entering details
+5. Download will start now
