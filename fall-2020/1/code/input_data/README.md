@@ -1,1 +1,1 @@
-Contains all the data from the log file. Data related all the IndyCar Series 2018 race. There are 37 features including car number, time of day, lap distance, vehicle speed, gear, brake, acceleration, steering and more. Data is stored approximately every millisecond for each of the 33 cars participating in the race.
+Contains all the speed data for the cars that participated and completed the 2018 race. The data is structured such that the columns store data for each of the cars while the rows store the speed of each car per second.
