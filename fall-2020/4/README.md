@@ -1,6 +1,6 @@
 # Deep Learning based Speech-to-Text Framework
 
-**Created by:** Sidharth Vishnu Bhakth, Vijayalaxmi B Maigur
+**Team members:** Sidharth Vishnu Bhakth, Vijayalaxmi B Maigur
 
 ### Summary:
 
