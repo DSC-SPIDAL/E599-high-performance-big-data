@@ -1,3 +1,7 @@
-Consider this page as a blog post.
+Project Name :- Real time car crash detection for indy car time series data
 
-Write your group members' name, your project name and put a summary of your project. You can include images that show your result.
+Group Members :- Akhil Nagulavancha 
+
+Project Description :- 
+
+The initial goal of the project is to predict car using Telemetry Data. After exploring the current data available data sets for car crashes , I proceeded to work on detecting car crashes and sucessfully able to predict anaomalies for a given car
