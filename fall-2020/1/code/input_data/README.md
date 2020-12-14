@@ -1,3 +1,1 @@
-put short description for the input data. For example:  Number of samples, features 
-
-Do not include any confidential data.
+Contains all the data from the log file. Data related all the IndyCar Series 2018 race. There are 37 features including car number, time of day, lap distance, vehicle speed, gear, brake, acceleration, steering and more. Data is stored approximately every millisecond for each of the 33 cars participating in the race.
