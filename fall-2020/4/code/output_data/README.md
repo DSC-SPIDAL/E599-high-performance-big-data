@@ -1,1 +1,1 @@
-put short description for the output data.
+The results of the model i.e the Character Error Rate (CER) and Word Error Rate (WER) on test data are saved as .csv files with the pandas library. They can be later used to plot the results graphs and compare different models.
