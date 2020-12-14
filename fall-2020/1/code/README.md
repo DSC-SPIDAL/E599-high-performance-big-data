@@ -14,7 +14,7 @@ The project requires the following dependencies:
 
 1. Make sure you have installed all the dependencies.
 2. Put the data files in the root of the source_code folder.
-3. Run the telemetry_cleaning_vrmath.ipynb to clean the data.
+3. Run the telemetry_cleaning_vrmath.ipynb to clean the data. This gives the formatted.csv. This file is used as input to all the other anomaly detection files and the storm.
 4. The notebook Anomaly_Detection_PyTorch_mse_rmse.ipynb contains the initial LSTM model and the complete single-node workflow along with calculation of mse and rmse values.
 5. Use the Anomaly_Detection_Single_Node.py file to run the entire training workflow directly from command line using `python Anomaly_Detection_Single_Node.py`.
 6. For distributed training, launch 2 VMs and put the source_code folder on both the VMs. Then use the following command to launch the distributed training:
