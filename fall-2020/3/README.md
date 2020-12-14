@@ -94,6 +94,5 @@ LSTM
 - The semantic colored yellow lines represent paths along which we must predict the motions of external agents.
 - The green dotted line depicts predicted agent&#39;s motion
 
-![](RackMultipart20201214-4-j0ifhd_html_6bc47c3c1bddb2aa.png)
-
-![](RackMultipart20201214-4-j0ifhd_html_7fc56c7804b5d6c9.png)
+![alt text](https://github.com/madhura42/E599-high-performance-big-data/blob/master/fall-2020/3/code/output_data/Output_Predicted_path.png)
+![alt text](https://github.com/madhura42/E599-high-performance-big-data/blob/master/fall-2020/3/code/output_data/Predicted_sequence_scene.png)
