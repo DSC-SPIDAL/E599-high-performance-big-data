@@ -77,12 +77,14 @@ ResNet18 | Train | 1.06s |
 |
 2. |
 ResNet50
- | Train | 1.69s | 15120s |
+ | Train | 1.69s |
+15120s |
 | Validation | 1.91s |
 |
 3. |
 LSTM
- | Train | 1.45s | 13680s |
+ | Train | 1.45s | 
+13680s |
 | Validation | 1.62s |
 
 **3. Visualizations** : In the below result images, following elements infer:
