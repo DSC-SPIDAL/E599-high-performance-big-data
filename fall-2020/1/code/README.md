@@ -28,11 +28,16 @@ The project requires the following dependencies:
 
 ### Instructions for Storm
 1. Put the saved model for distributed GPU version in Lab6 folder. Also, put the formatted.csv (input data) file in the Lab6 folder.
+
 2. Set up port tunneling between the VM and host machine.
+
 3. Install Java and Maven.
+
 4. Install and properly configure zookeeper for VM.
+
 5. Logout of VM and login again using post forwarding.
 `ssh -L 5000:localhost:5000 -L 6060:localhost:6060 -L 8080:localhost:8080 VM-address`
+
 5. Run Zookeeper, Storm nimbus, supervisor, and ui. Use tmux to separate sessions.
 `~/zookeeper-3.4.14/bin/zkServer.sh start`
 
@@ -58,8 +63,10 @@ You can see the ui on localhost:8080
 `cd ~/Lab6/indycar-storm/`
 
 `mvn clean package`
+
 9. Submit topology:
 `storm jar target/IndyCar-1.0-SNAPSHOT.jar org.apache.storm.flux.Flux -l -R /topology.yaml`
+
 10. Go to localhost:5000 in your browser to see results.
 
 
