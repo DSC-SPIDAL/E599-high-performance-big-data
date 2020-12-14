@@ -17,7 +17,9 @@ For the anomaly detection, we have used an LSTM model having 2 LSTM layers stack
 With our focus of distributed training and real-time detection for fast and accurate results in real-time, distributed training in Pytorch was implemented and the model with the best training time was used to process real-time streaming data in Apache Storm. We observed the following results:
 
 **Pytorch:**
- 
+
+![training loss](./images/loss.png)
+
 <table>
   <tr>
    <td><strong>Metric</strong>
@@ -192,7 +194,7 @@ With our focus of distributed training and real-time detection for fast and accu
  
  
 **Storm:**
-
+![Storm topology and inference](./images/storm.png)
  
 **Conclusion:**
 
