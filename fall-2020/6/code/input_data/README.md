@@ -1,3 +1,3 @@
-put short description for the input data. For example:  Number of samples, features 
+The data of car 12 and car 9 are extarcted from the log file of Indy Car Race 2018. 
 
-Do not include any confidential data.
+Samples of the log file data and extarcted data is attached 
