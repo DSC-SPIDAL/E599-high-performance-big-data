@@ -10,6 +10,12 @@ It is important to note that it has been difficult to find adequate previous wor
 
 Results:
 
+LSTM model Prediction:
 ![LSTM Model prediction](./report/result_lstm.png)
 
+Real time prediciton on Storm:
 ![Real time prediciton on Storm](./report/real_time_pred.png)
+
+Conclusion:
+
+We were able to achieve good results with real time car ranking forecasting via optimized LSTM’s, which performed 2-4 times better than some machine learning models such as LightGBM Regressor and AdaBoost Classifier. However, one important insight was that certain machine learning models such as random forest and gradient boosting regressors are promising too – to a certain extent. More research and parameter optimization will be useful in this case. Additionally, the project helped us understand the working and usage of Apache Storm, for real time analysis and predictions. For future work, we would like to delve deeper into analyzing the performance of Random Forest and Gradient Boosting regressor, as well as finding better deep learning models to perform the same task. Finally, we also believe it is important to take pitstop interval prediction into direct consideration for rank forecasting.
