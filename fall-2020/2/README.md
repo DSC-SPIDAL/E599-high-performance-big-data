@@ -11,4 +11,5 @@ It is important to note that it has been difficult to find adequate previous wor
 Results:
 
 ![LSTM Model prediction](./report/result_lstm.png)
-![Real time prediciton on Storm]()(./report/real_time_pred.png)
+
+![Real time prediciton on Storm](./report/real_time_pred.png)
