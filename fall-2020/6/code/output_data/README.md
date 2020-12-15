@@ -1,5 +1,5 @@
 	                
-time_of_day_long	lap_distance	vehicle_speed	engine_speed		
+time_of_day_long lap_distance	vehicle_speed	engine_speed		
 58680.453	0.17	57.36	3888
 58680.546	2.76	56.75	3943
 58680.630	5.35	57.53	3689
