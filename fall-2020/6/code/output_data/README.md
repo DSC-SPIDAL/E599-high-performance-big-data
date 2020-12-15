@@ -1,1 +1,7 @@
-put short description for the output data.
+	                
+time_of_day_long	lap_distance	vehicle_speed	engine_speed		
+58680.453	0.17	57.36	3888
+58680.546	2.76	56.75	3943
+58680.630	5.35	57.53	3689
+58680.723	7.93	57.04	3976
+58680.816	10.44	58.16	3818
