@@ -2,7 +2,7 @@ Project Name :- Real time car crash detection for indy car time series data
 
 Group Members :- Akhil Nagulavancha 
 
-Project Description :- 
+*Project Description :-* 
 
 The initial goal of the project is to predict car using Telemetry Data. After exploring the current data available data sets for car crashes and over the course of the project the goal of the project shifted and  I proceeded to work on detecting car crashes and sucessfully able to predict anaomalies for a given car
 
@@ -10,7 +10,7 @@ Deep Learning as come a long way with the advent various Neural Network Architec
 
 So LSTM Autoencoder's were used in this project model the time series data. 
 
-Data :- Relevent Telemetry Dataset is extarcted from Indy Car Log file.
+*Data :-* Relevent Telemetry Dataset is extarcted from Indy Car Log file.
 
 <img width="696" alt="image" src="https://user-images.githubusercontent.com/16973298/102233999-da589180-3f16-11eb-9681-3d7a91db59c9.png">
 
@@ -18,7 +18,7 @@ Detailed Discription of data.
 
 <img width="838" alt="image" src="https://user-images.githubusercontent.com/16973298/102234078-f0665200-3f16-11eb-85ed-471ee6e8acaa.png">
 
-Few Results for car-12 :-
+*Few Results for car-12 :-*
 
 Autoencoder Prediction for vehicle speed test Data 
 
