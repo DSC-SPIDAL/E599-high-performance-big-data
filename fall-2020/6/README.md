@@ -1,4 +1,4 @@
-Project Name :- Real time car crash detection for indy car time series data
+# Project Name :- Real time car crash detection for indy car time series data
 
 Group Members :- Akhil Nagulavancha 
 
@@ -10,7 +10,7 @@ Deep Learning as come a long way with the advent various Neural Network Architec
 
 So LSTM Autoencoder's were used in this project model the time series data. 
 
-*Data :-* Relevent Telemetry Dataset is extarcted from Indy Car Log file.
+# *Data :-* Relevent Telemetry Dataset is extarcted from Indy Car Log file.
 
 <img width="696" alt="image" src="https://user-images.githubusercontent.com/16973298/102233999-da589180-3f16-11eb-9681-3d7a91db59c9.png">
 
@@ -18,7 +18,7 @@ Detailed Discription of data.
 
 <img width="838" alt="image" src="https://user-images.githubusercontent.com/16973298/102234078-f0665200-3f16-11eb-85ed-471ee6e8acaa.png">
 
-*Few Results for car-12 :-*
+# *Few Results for car-12 :-*
 
 Autoencoder Prediction for vehicle speed test Data 
 
@@ -28,11 +28,11 @@ Autoencoder Prediction for Engine  speed test Data
 
 <img width="834" alt="image" src="https://user-images.githubusercontent.com/16973298/102234373-3cb19200-3f17-11eb-9c4e-de887b26247f.png">
 
-Autoencoder Prediction for Lap Distance test Data 
+# Autoencoder Prediction for Lap Distance test Data 
 
 <img width="880" alt="image" src="https://user-images.githubusercontent.com/16973298/102234433-4a671780-3f17-11eb-9569-25ee26867c6e.png">
 
-Detected Anomlies for car-12 for at throshold 0.96 of the scores.
+# Detected Anomlies for car-12 for at throshold 0.96 of the scores.
 
 <img width="404" alt="image" src="https://user-images.githubusercontent.com/16973298/102235037-eb55d280-3f17-11eb-8a8f-dd1d5742eb2f.png">
 
