@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Real Time IndyCar Anomaly Detection</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container" style="position: relative; height:100vh; width:80vw">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <canvas id="canvas0"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--suppress JSUnresolvedLibraryURL -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<!--suppress JSUnresolvedLibraryURL -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!--suppress JSUnresolvedLibraryURL -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+<script>
+    $(document).ready(function () {
+        
+        
+        
+        
+        const chartDataList = []
+        const chartList = []
+        var car_names = ['Car #12']
+        
+        var  lap = 0
+        
+        for (var i = 0; i < 1; i++) {
+            
+            var chartData = {
+                labels: [],
+                datasets:
+                [
+                    {
+                        type: 'line',
+                        label: 'Actual Rank',
+                        fill: false,
+                        borderColor: 'black',
+                        borderWidth: 2,
+                        pointRadius: 2,
+                        data: []
+                    },
+                    {
+                        type: 'line',
+                        label: 'Prediction',
+                        fill: false,
+                        borderColor: 'blue',
+                        borderWidth: 2,
+                        pointRadius: 2,
+                        data: []
+                    }
+                ]
+            };
+            
+            chartDataList.push(chartData)
+            
+            // const context = document.getElementById('canvas').getContext('2d');
+            var context = document.getElementById('canvas' + i.toString() ).getContext('2d');
+            
+            var chart = new Chart(context, {
+                type: 'line',
+                data: chartData,
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    aspectRatio: 1.2,
+                    title: {
+                        display: true,
+                        text: car_names[i]
+                    },
+                    tooltips: {
+                        mode: 'index',
+                        enabled: true,
+                        intersect: false
+                    },
+                    scales: {
+                        yAxes: [{
+                            ticks: {
+                                suggestedMin: 0,
+                                suggestedMax: 20
+                            }
+                        }]
+                    }
+            }});
+            chartList.push(chart)
+            chart.canvas.parentNode.style.height = '600px';
+        }//end  of for loop
+        
+        
+        
+        const source = new EventSource("/chart-data");
+        
+        source.onmessage = function (event) {
+            const data = JSON.parse(event.data);
+            
+            for (var i = 0; i < 1; i++) {
+                
+                if(lap == 0){
+                    chartList[i].options.title.text = 'Car #' + data.car_number;
+                }
+                
+                
+                if (data.lap != lap) {
+                    console.log(data)
+                    
+                    lap = data.lap
+                    if (chartDataList[i].labels.length == 20) {
+                        chartDataList[i].labels.shift();
+                        chartDataList[i].datasets[0].data.shift();
+                        chartDataList[i].datasets[1].data.shift();
+                        //chartDataList[i].datasets[1].backgroundColor.shift();
+                    }
+                    chartDataList[i].labels.push(data.lap);
+                    chartDataList[i].datasets[0].data.push(data.actual_rank);
+                    chartDataList[i].datasets[1].data.push(data.prediction);
+                    chartList[i].update();
+                }
+            }
+        }
+    });
+</script>
+</body>
+</html>
