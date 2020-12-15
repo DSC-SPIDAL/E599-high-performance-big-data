@@ -36,4 +36,6 @@ Autoencoder Prediction for Engine  speed test Data
 
 <img width="404" alt="image" src="https://user-images.githubusercontent.com/16973298/102235037-eb55d280-3f17-11eb-8a8f-dd1d5742eb2f.png">
 
+Conclusion : Sucessfully able to detect anamolies , Anamolies can be changed by changing the throshold range of scores . 
 
+For futures implementations , architectures which are specially designed for multivariate time series data can be implemented since this is variation and extension of the process designed for univariate implementation , it cannot be that robust .
