@@ -1,3 +1,1 @@
-put short description for the input data. For example:  Number of samples, features 
-
-Do not include any confidential data.
+Contains all the speed data for the cars that participated and completed the 2018 race. The data is structured such that the columns store data for each of the cars while the rows store the speed of each car per second.
