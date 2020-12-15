@@ -32,7 +32,7 @@ Autoencoder Prediction for Lap Distance test Data
 
 <img width="880" alt="image" src="https://user-images.githubusercontent.com/16973298/102234433-4a671780-3f17-11eb-9569-25ee26867c6e.png">
 
-Detected Anomlies for car-12 for at throshold 0.96 of the socres 
+Detected Anomlies for car-12 for at throshold 0.96 of the scores.
 
 <img width="404" alt="image" src="https://user-images.githubusercontent.com/16973298/102235037-eb55d280-3f17-11eb-8a8f-dd1d5742eb2f.png">
 
