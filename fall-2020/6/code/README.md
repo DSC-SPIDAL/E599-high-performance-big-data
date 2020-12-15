@@ -4,6 +4,7 @@
 
 Jupyter Notebook description :-
 
-HCP-1 :- Results Before Feature engineering into 3 features from Datasets for car-12
-HPC-2 :- Results After Feature engineering into 3 features from Datasets for car-12
-HPC-3 :- Results After Feature engineering into 3 features from Datasets for car-9
+
+1) HCP-1 :- Results Before Feature engineering into 3 features from Datasets for car-12
+2) HPC-2 :- Results After Feature engineering into 3 features from Datasets for car-12
+3) HPC-3 :- Results After Feature engineering into 3 features from Datasets for car-9
